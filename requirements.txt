@@ -1,0 +1,6 @@
+ipython
+jupyter-book
+matplotlib
+numpy
+attrs>=20.3,<22
+lxml[html_clean]

@@ -1,14 +1,54 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
+#format: jb-book
+#root: cover.md
+#parts:
+
+#  - caption: Book Chapters
+#    numbered: True
+#    chapters:
+#      - file: chapters/chapter01/intro.md
+#        sections:
+#          - file: chapters/chapter01/sec1.md
+
 format: jb-book
 root: cover.md
-parts:
 
+parts:
   - caption: Book Chapters
-    numbered: True
+    numbered: true
     chapters:
       - file: chapters/chapter01/intro.md
+        title: Introduction to Machine Learning
         sections:
-          - file: chapters/chapter01/sec1.md
+          - file: chapters/chapter01/sec1.md  # Optional sub-section
+
+      # - file: chapters/chapter02/intro.md
+      #   title: Mathematical Foundations
+      #   sections:
+      #     - file: chapters/chapter02/linear_algebra.md
+      #     - file: chapters/chapter02/probability.md
+
+      - file: chapters/chapter03/intro.md
+        title: Unsupervised Learning
+
+      - file: chapters/chapter04/intro.md
+        title: Supervised Learning
+
+      - file: chapters/chapter05/intro.md
+        title: Model Training and Optimization
+
+      - file: chapters/chapter06/intro.md
+        title: Support Vector Machines
+
+      - file: chapters/chapter07/intro.md
+        title: Neural Networks
+
+      - file: chapters/chapter08/intro.md
+        title: Deep Learning Models
+
+      - file: chapters/chapter09/intro.md
+        title: Generalization and Model Behavior
+
           

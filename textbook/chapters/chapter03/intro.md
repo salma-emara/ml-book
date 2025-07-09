@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 2: Probabilistic Modeling and Density Estimation
 
-In-progress!

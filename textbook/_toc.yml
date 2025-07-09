@@ -19,36 +19,203 @@ parts:
   - caption: Book Chapters
     numbered: true
     chapters:
-      - file: chapters/chapter01/intro.md
+      - file: chapters/chapter01/intro
         title: Introduction to Machine Learning
         sections:
-          - file: chapters/chapter01/sec1.md  # Optional sub-section
+          - file: chapters/chapter01/what_is_ml
+            title: What is Machine Learning?
+          - file: chapters/chapter01/types_of_learning
+            title: Types of Learning
+          - file: chapters/chapter01/workflow
+            title: ML Workflow
+          - file: chapters/chapter01/math_preliminaries
+            title: Mathematical Preliminaries
 
-      # - file: chapters/chapter02/intro.md
-      #   title: Mathematical Foundations
-      #   sections:
-      #     - file: chapters/chapter02/linear_algebra.md
-      #     - file: chapters/chapter02/probability.md
+      - file: chapters/chapter02/intro
+        title: Clustering
+        sections:
+          - file: chapters/chapter02/clustering_intro
+            title: Clustering Overview
+          - file: chapters/chapter02/kmeans
+            title: K-Means Clustering
+          - file: chapters/chapter02/evaluation
+            title: Evaluation Metrics & GMM
 
-      - file: chapters/chapter03/intro.md
-        title: Unsupervised Learning
+      - file: chapters/chapter03/intro
+        title: Probabilistic Modeling and Density Estimation
+        sections:
+          - file: chapters/chapter03/probability_review
+            title: Probability Review
+          - file: chapters/chapter03/probabilistic_modeling
+            title: Probabilistic Modeling
+          - file: chapters/chapter03/density_estimation
+            title: Density Estimation
+          - file: chapters/chapter03/clustering_probabilistic
+            title: Clustering via Probabilistic Models
 
-      - file: chapters/chapter04/intro.md
-        title: Supervised Learning
+      - file: chapters/chapter04/intro
+        title: Principal Component Analysis (PCA)
+        sections:
+          - file: chapters/chapter04/dim_reduction_intro
+            title: Introduction to Dimensionality Reduction
+          - file: chapters/chapter04/pca_basics
+            title: PCA Basics
+          - file: chapters/chapter04/pca_math
+            title: PCA Mathematics
+          - file: chapters/chapter04/pca_algorithm
+            title: PCA Algorithm
+          - file: chapters/chapter04/pca_practice
+            title: PCA in Practice
+          - file: chapters/chapter04/pca_applications
+            title: Applications and Limitations
 
-      - file: chapters/chapter05/intro.md
-        title: Model Training and Optimization
+      - file: chapters/chapter05/intro
+        title: Linear Regression and Classification
+        sections:
+          - file: chapters/chapter05/linear_regression
+            title: Linear Regression
+          - file: chapters/chapter05/linear_classification
+            title: Linear Classification
+          - file: chapters/chapter05/geometric_interpretation
+            title: Geometric Interpretation
+          - file: chapters/chapter05/evaluation_metrics
+            title: Evaluation Metrics
 
-      - file: chapters/chapter06/intro.md
-        title: Support Vector Machines
+      - file: chapters/chapter06/intro
+        title: Gradient Descent and Classification with Confidence
+        sections:
+          - file: chapters/chapter06/gradient_descent
+            title: Gradient Descent Optimization
+          - file: chapters/chapter06/classification_confidence
+            title: Confidence in Classification
+          - file: chapters/chapter06/calibration_boundaries
+            title: Calibration and Decision Boundaries
+          - file: chapters/chapter06/practical_considerations
+            title: Practical Considerations
 
-      - file: chapters/chapter07/intro.md
+      - file: chapters/chapter07/intro
+        title: Support Vector Machine (SVM)
+        sections:
+          - file: chapters/chapter07/linear_classifiers_recap
+            title: Linear Classifiers Recap
+          - file: chapters/chapter07/max_margin
+            title: Maximum Margin Classifier
+          - file: chapters/chapter07/dual_formulation
+            title: Dual Formulation
+          - file: chapters/chapter07/kernel_trick
+            title: Kernel Trick
+          - file: chapters/chapter07/soft_margin_svm
+            title: Soft-Margin SVM
+          - file: chapters/chapter07/svm_practice
+            title: SVM in Practice
+
+      - file: chapters/chapter08/intro
         title: Neural Networks
+        sections:
+          - file: chapters/chapter08/biological_motivation
+            title: Biological and Historical Motivation
+          - file: chapters/chapter08/perceptron
+            title: Perceptron Model
+          - file: chapters/chapter08/mlps
+            title: Multilayer Perceptrons (MLPs)
+          - file: chapters/chapter08/forward_propagation
+            title: Forward Propagation
+          - file: chapters/chapter08/training_networks
+            title: Training Neural Networks
+          - file: chapters/chapter08/design_considerations
+            title: Design Considerations
+          - file: chapters/chapter08/backpropagation
+            title: Backpropagation Algorithm
+          - file: chapters/chapter08/training_deep
+            title: Training Deep Networks
+          - file: chapters/chapter08/optimizers
+            title: Optimizers
+          - file: chapters/chapter08/batch_norm
+            title: Batch Normalization
+          - file: chapters/chapter08/expressivity_overfitting
+            title: Expressivity and Overfitting
+          - file: chapters/chapter08/generalization
+            title: Generalization in Machine Learning
 
-      - file: chapters/chapter08/intro.md
-        title: Deep Learning Models
+      - file: chapters/chapter09/intro
+        title: Generalization in Machine Learning
+        sections:
+          - file: chapters/chapter09/definition_importance
+            title: Definition and Importance
+          - file: chapters/chapter09/underfitting_overfitting
+            title: Underfitting vs. Overfitting
+          - file: chapters/chapter09/bias_variance_tradeoff
+            title: Bias–Variance Tradeoff
+          - file: chapters/chapter09/capacity_complexity
+            title: Capacity, Complexity, and Model Selection
+          - file: chapters/chapter09/regularization
+            title: Regularization Techniques
+          - file: chapters/chapter09/validation_methods
+            title: Validation Methods
 
-      - file: chapters/chapter09/intro.md
-        title: Generalization and Model Behavior
+      - file: chapters/chapter10/intro
+        title: Convolutional Neural Networks (CNNs)
+        sections:
+          - file: chapters/chapter10/cnn_motivation
+            title: Motivation and Use in Vision Tasks
+          - file: chapters/chapter10/convolution_operation
+            title: Convolution Operation
+          - file: chapters/chapter10/filters_feature_maps
+            title: Filters and Feature Maps
+          - file: chapters/chapter10/padding_stride
+            title: Padding and Stride
+          - file: chapters/chapter10/pooling_layers
+            title: Pooling Layers
+          - file: chapters/chapter10/relu_activation
+            title: ReLU and Activation Maps
+          - file: chapters/chapter10/cnn_architectures
+            title: Architecture of Typical CNNs
+          - file: chapters/chapter10/training_cnns
+            title: Training CNNs
 
+      - file: chapters/chapter11/intro
+        title: Sequence Data Analysis
+        sections:
+          - file: chapters/chapter11/sequence_challenges
+            title: Challenges with Temporal or Sequential Data
+          - file: chapters/chapter11/sequence_tasks
+            title: Sequence Modeling Tasks
+          - file: chapters/chapter11/rnn_basics
+            title: Recurrent Neural Networks (RNNs)
+          - file: chapters/chapter11/advanced_rnn
+            title: Advanced Sequence Models
+
+      - file: chapters/chapter12/intro
+        title: Data Generation
+        sections:
+          - file: chapters/chapter12/synthetic_vs_real
+            title: Synthetic vs. Real-World Data
+          - file: chapters/chapter12/generative_models_overview
+            title: Generative Models Overview
+          - file: chapters/chapter12/gmm
+            title: Gaussian Mixture Models (GMMs)
+          - file: chapters/chapter12/vae
+            title: Variational Autoencoders (VAEs)
+          - file: chapters/chapter12/gan
+            title: Generative Adversarial Networks (GANs)
+          - file: chapters/chapter12/sampling_methods
+            title: Sampling Methods
+
+      - file: chapters/chapter13/intro
+        title: Introduction to Reinforcement Learning (RL)
+        sections:
+          - file: chapters/chapter13/agent_environment
+            title: Agent-Environment Interaction
+          - file: chapters/chapter13/mdp
+            title: Markov Decision Processes (MDPs)
+          - file: chapters/chapter13/reward_return
+            title: Reward Signal and Return
+          - file: chapters/chapter13/policy_value_q
+            title: Policy, Value Function, and Q-Function
+          - file: chapters/chapter13/exploration_exploitation
+            title: Exploration vs. Exploitation Trade-off
+          - file: chapters/chapter13/rl_applications
+            title: Applications of RL
+          - file: chapters/chapter13/basic_algorithms
+            title: Basic RL Algorithms
           

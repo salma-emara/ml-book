@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 4: Linear Regression and Classification
 
-In-progress!

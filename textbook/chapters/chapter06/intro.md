@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 5: Gradient Descent and Classification with Confidence
 
-In-progress!

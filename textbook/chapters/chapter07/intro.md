@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 6: Support Vector Machine (SVM)
 
-In-progress!

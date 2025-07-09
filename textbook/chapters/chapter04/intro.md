@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 3: Principal Component Analysis (PCA)
 
-In-progress!

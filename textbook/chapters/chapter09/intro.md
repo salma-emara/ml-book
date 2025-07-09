@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 9: Generalization in Machine Learning
 
-In-progress!

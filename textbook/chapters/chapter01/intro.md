@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 1: Preliminaries and Clustering
 
-In-progress!

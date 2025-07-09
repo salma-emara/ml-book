@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 1: Clustring
 
-In-progress!

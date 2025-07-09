@@ -1,3 +1,2 @@
-# Cover Chapter 1
+# Chapter 7: Neural Networks
 
-In-progress!

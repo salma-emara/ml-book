@@ -134,8 +134,6 @@ parts:
             title: Batch Normalization
           - file: chapters/chapter08/expressivity_overfitting
             title: Expressivity and Overfitting
-          - file: chapters/chapter08/generalization
-            title: Generalization in Machine Learning
 
       - file: chapters/chapter09/intro
         title: Generalization in Machine Learning

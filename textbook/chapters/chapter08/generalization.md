@@ -1,2 +1,0 @@
-# Generalization in Machine Learning
-

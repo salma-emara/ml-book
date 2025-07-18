@@ -38,8 +38,11 @@ parts:
             title: Clustering Overview
           - file: chapters/chapter02/kmeans
             title: K-Means Clustering
+          - file: chapters/chapter02/softclustering
+            title: Soft Clustering
           - file: chapters/chapter02/evaluation
-            title: Evaluation Metrics & GMM
+            title: Risk Minimization Framework for Soft Clustering
+
 
       - file: chapters/chapter03/intro
         title: Probabilistic Modeling and Density Estimation

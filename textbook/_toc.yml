@@ -70,8 +70,6 @@ parts:
             title: PCA Mathematics
           - file: chapters/chapter04/pca_algorithm
             title: PCA Algorithm
-          - file: chapters/chapter04/pca_practice
-            title: PCA in Practice
           - file: chapters/chapter04/pca_applications
             title: Applications and Limitations
 

@@ -9,6 +9,7 @@ $$
 $$
 
 Assume the data is **centered**:  
+
 $$
 \bar{\mathbf{x}} = \frac{1}{N} \sum_{n=1}^N \mathbf{x}_n = \mathbf{0}
 $$

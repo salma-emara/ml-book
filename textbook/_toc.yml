@@ -51,10 +51,13 @@ parts:
             title: Probability Review
           - file: chapters/chapter03/probabilistic_modeling
             title: Probabilistic Modeling
-          - file: chapters/chapter03/density_estimation
-            title: Density Estimation
-          - file: chapters/chapter03/clustering_probabilistic
-            title: Clustering via Probabilistic Models
+          - file: chapters/chapter03/mle
+            title: Maximum Likelihood Estimation (MLE)
+          - file: chapters/chapter03/map
+            title: Maximum A Posteriori Estimation (MAP)
+          - file: chapters/chapter03/GMM
+            title: Gaussian Mixture Models (GMM)
+
 
       - file: chapters/chapter04/intro
         title: Principal Component Analysis (PCA)

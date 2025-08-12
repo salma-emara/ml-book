@@ -1,4 +1,4 @@
-# 5. Linear Regression and Classification
+# Linear Regression and Classification
 
 This chapter introduces two fundamental approaches within the supervised learning paradigm: **linear regression** for predicting continuous-valued outputs and **linear classification** for assigning samples to discrete categories. Both methods rely on linear models, wherein the prediction is obtained as a linear function of the input features.
 

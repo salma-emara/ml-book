@@ -170,6 +170,7 @@ $$
 
 ---
 
+
 **<span style="font-size:1.5em;">Vector-Valued Outputs</span>**
 
 For vector-valued outputs $\mathbf{v}_n \in \mathbb{R}^\ell$, the model becomes

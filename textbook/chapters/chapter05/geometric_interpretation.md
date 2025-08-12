@@ -45,6 +45,7 @@ splits the real line into two regions with a decision boundary at $x = b$:
 
 In $\mathbb{R}^d$, a linear classifier of the form
 
+
 $$
 f(\mathbf{x}) = \mathrm{sign}(\mathbf{w}^\top \mathbf{x} + b)
 $$

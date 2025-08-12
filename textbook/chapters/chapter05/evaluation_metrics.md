@@ -20,6 +20,7 @@ $$
 
 ---
 
+
 **<span style="font-size:1.5em;">Risk</span>**
 
 Given a sample $(\mathbf{x}, \mathbf{v})$ and model output $\mathbf{y} = f(\mathbf{x})$, the **risk** (expected loss) is defined as:

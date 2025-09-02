@@ -124,18 +124,14 @@ parts:
             title: Multilayer Perceptrons (MLPs)
           - file: chapters/chapter08/forward_propagation
             title: Forward Propagation
-          - file: chapters/chapter08/training_networks
-            title: Training Neural Networks
-          - file: chapters/chapter08/design_considerations
-            title: Design Considerations
           - file: chapters/chapter08/backpropagation
             title: Backpropagation Algorithm
-          - file: chapters/chapter08/training_deep
-            title: Training Deep Networks
           - file: chapters/chapter08/optimizers
             title: Optimizers
           - file: chapters/chapter08/batch_norm
             title: Batch Normalization
+          - file: chapters/chapter08/design_considerations
+            title: Design Considerations
           - file: chapters/chapter08/expressivity_overfitting
             title: Expressivity and Overfitting
 

@@ -39,3 +39,4 @@ $$
 <div style="text-align: center; background-color:white; padding:10px;">
   <img src="../../_static/nn5.svg" alt="Bias-Variance Tradeoff" width="500"/>
 </div>
+

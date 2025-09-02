@@ -16,3 +16,4 @@ We will explore:
 - Key strategies such as **regularization** and **validation methods** to improve generalization.
 
 Ultimately, generalization connects the theory of learning with practical model design, ensuring that machine learning systems remain useful beyond their training data.
+

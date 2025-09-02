@@ -53,3 +53,4 @@ $$
 - Dropout prevents co-adaptation of neurons and improves generalization.  
 - At test time, all neurons are used but scaled appropriately.
 
+

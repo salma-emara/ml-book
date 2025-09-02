@@ -40,3 +40,4 @@ When a model fails to generalize, two main scenarios arise:
 - **Left:** Underfitting – model is too simple  
 - **Middle:** Good fit – model generalizes well  
 - **Right:** Overfitting – model is too complex, capturing noise  
+

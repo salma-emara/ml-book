@@ -25,3 +25,4 @@
 - If capacity is too large → **overfitting**.
 - **Validation methods** (e.g., cross-validation) guide capacity choice.
 
+

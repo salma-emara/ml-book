@@ -5,7 +5,8 @@ This is achieved by adding constraints or modifying the training procedure.
 
 ---
 
-### General Form
+**<span style="font-size:1.5em;">General Form</span>**
+
 In regularization, the empirical risk is modified by adding a penalty term:
 
 $$
@@ -17,7 +18,8 @@ $$
 
 ---
 
-### ℓ<sub>p</sub>-Norm Regularization
+**<span style="font-size:1.5em;">ℓ<sub>p</sub>-Norm Regularization</span>**
+
 A common penalty is the **ℓ<sub>p</sub>-norm**:
 
 $$
@@ -29,7 +31,8 @@ $$
 
 ---
 
-### Weight Decay
+**<span style="font-size:1.5em;">Weight Decay</span>**
+
 Using $\ell_2$-regularization with gradient descent yields **weight decay**:
 
 $$
@@ -41,7 +44,8 @@ $$
 
 ---
 
-### Stochastic Regularization: Dropout
+**<span style="font-size:1.5em;">Stochastic Regularization: Dropout</span>**
+
 Another approach is to introduce **stochasticity** during training.  
 
 - In each forward pass, randomly drop some neurons:  

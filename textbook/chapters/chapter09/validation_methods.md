@@ -5,7 +5,8 @@ They help in **model selection**, **hyperparameter tuning**, and **overfitting p
 
 ---
 
-### Hyperparameter Tuning
+**<span style="font-size:1.5em;">Hyperparameter Tuning</span>**
+
 - **Hyperparameters:** settings we choose before training (e.g., learning rate, depth, width, regularization strength).  
 - Process:
   1. Train with initial hyperparameters.
@@ -17,7 +18,8 @@ They help in **model selection**, **hyperparameter tuning**, and **overfitting p
 
 ---
 
-### Early Stopping
+**<span style="font-size:1.5em;">Early Stopping</span>**
+
 - Monitor performance on a validation set after each epoch.
 - Stop training when validation error stops improving.
 
@@ -29,7 +31,8 @@ They help in **model selection**, **hyperparameter tuning**, and **overfitting p
 
 ---
 
-### Ensemble Methods
+**<span style="font-size:1.5em;">Ensemble Methods</span>**
+
 - Combine multiple models to reduce variance and improve generalization.  
 - Given $m$ models with predictions $y_i$, the ensemble prediction is:
 
@@ -44,7 +47,8 @@ $$
 
 ---
 
-### Data Augmentation
+**<span style="font-size:1.5em;">Data Augmentation</span>**
+
 - Artificially enlarge the training set by generating new samples.  
 - Examples:
   - Image transformations (rotations, flips, color jitter).  

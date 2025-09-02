@@ -4,7 +4,8 @@ When a model fails to generalize, two main scenarios arise:
 
 ---
 
-### Overfitting
+**<span style="font-size:1.5em;">Overfitting</span>**
+
 - **Definition:** The model learns the training data **too well**, including noise and irrelevant patterns.
 - Symptoms:
   - Training loss is small
@@ -15,7 +16,8 @@ When a model fails to generalize, two main scenarios arise:
 
 ---
 
-### Underfitting
+**<span style="font-size:1.5em;">Underfitting</span>**
+
 - **Definition:** The model fails to capture the underlying structure of the data.
 - Symptoms:
   - Both training loss and validation loss are large
@@ -25,13 +27,15 @@ When a model fails to generalize, two main scenarios arise:
 
 ---
 
-### Typical Behavior
+**<span style="font-size:1.5em;">Typical Behavior</span>**
+
 - In modern **deep learning**, underfitting is less common.
 - The dominant challenge is **overfitting**, especially with high-capacity neural networks.
 
 ---
 
-### Visualization
+**<span style="font-size:1.5em;">Visualization</span>**
+
 
 <div style="text-align: center; background-color:white; padding:10px;">
   <img src="../../_static/nn7.png" alt="Underfitting vs Overfitting" width="500"/>

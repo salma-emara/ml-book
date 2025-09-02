@@ -7,34 +7,34 @@ $$
 $$
 
 ---
+**<span style="font-size:1.5em;">Bias</span>**
 
-### Bias
 - Measures the error introduced by **approximating a complex function** with a simpler model.
 - High bias → model is too simple (**underfitting**).
 - Example: Linear regression on highly nonlinear data.
 
 ---
+**<span style="font-size:1.5em;">Variance</span>**
 
-### Variance
 - Measures how much the model’s predictions vary with different training sets.
 - High variance → model is too sensitive to training data (**overfitting**).
 - Example: Deep network memorizing noise in the dataset.
 
 ---
+**<span style="font-size:1.5em;">Irreducible Error (Bayes Error)</span>**
 
-### Irreducible Error (Bayes Error)
 - Noise inherent in the data
 - Cannot be reduced by any model, no matter how complex
 
 ---
+**<span style="font-size:1.5em;">Tradeoff</span>**
 
-### Tradeoff
 - Reducing bias usually increases variance, and vice versa.
 - Goal: Find a balance that minimizes the **expected generalization error**.
 
 ---
+**<span style="font-size:1.5em;">Visualization</span>**
 
-### Visualization
 
 <div style="text-align: center; background-color:white; padding:10px;">
   <img src="../../_static/nn5.svg" alt="Bias-Variance Tradeoff" width="500"/>

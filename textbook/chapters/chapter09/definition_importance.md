@@ -8,14 +8,15 @@ The central question becomes:
 This ability is referred to as **generalization**.
 
 ---
+**<span style="font-size:1.5em;">Generalization</span>**
 
-### Generalization
 - **Definition:** The ability of a trained model to perform well on **unseen data** drawn from the same distribution as the training data.  
 - Unseen data typically comes from the same underlying process, but its labels are unknown during training.
 
 ---
 
-### Measuring Generalization
+**<span style="font-size:1.5em;">Measuring Generalization</span>**
+
 To assess generalization in practice:
 - We evaluate the model on **samples not used during training**.  
 - Common approach: split the available dataset into **training**, **validation**, and **test** sets.

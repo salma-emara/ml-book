@@ -155,21 +155,24 @@ parts:
         title: Convolutional Neural Networks (CNNs)
         sections:
           - file: chapters/chapter10/cnn_motivation
-            title: Motivation and Use in Vision Tasks
+            title: Why Fully Connected Layers Are Not Enough
+          - file: chapters/chapter10/local_connectivity
+            title: Local Connectivity and Sparse Weights
+          - file: chapters/chapter10/parameter_sharing
+            title: Parameter Sharing in Convolutional Layers
           - file: chapters/chapter10/convolution_operation
-            title: Convolution Operation
-          - file: chapters/chapter10/filters_feature_maps
-            title: Filters and Feature Maps
-          - file: chapters/chapter10/padding_stride
-            title: Padding and Stride
+            title: The Convolution Operation
+          - file: chapters/chapter10/feature_maps
+            title: Feature Maps and Stacked Filters
+          - file: chapters/chapter10/stride_padding
+            title: Stride and Padding
           - file: chapters/chapter10/pooling_layers
             title: Pooling Layers
-          - file: chapters/chapter10/relu_activation
-            title: ReLU and Activation Maps
+          - file: chapters/chapter10/cnn_training
+            title: Training Convolutional Neural Networks
           - file: chapters/chapter10/cnn_architectures
-            title: Architecture of Typical CNNs
-          - file: chapters/chapter10/training_cnns
-            title: Training CNNs
+            title: Common CNN Architectures
+
 
       - file: chapters/chapter11/intro
         title: Sequence Data Analysis

@@ -20,16 +20,19 @@ Training deep networks can be unstable because intermediate activations may vary
 Given activations $\{x_1, x_2, \ldots, x_m\}$ in a mini-batch:
 
 1. Compute the batch mean:
+
    $$
    \mu_B = \frac{1}{m}\sum_{i=1}^m x_i
    $$
 
 2. Compute the batch variance:
+
    $$
    \sigma_B^2 = \frac{1}{m}\sum_{i=1}^m (x_i - \mu_B)^2
    $$
 
 3. Normalize:
+
    $$
    \hat{x}_i = \frac{x_i - \mu_B}{\sqrt{\sigma_B^2 + \epsilon}}
    $$

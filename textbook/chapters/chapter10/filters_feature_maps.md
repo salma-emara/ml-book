@@ -1,2 +1,0 @@
-# Filters and Feature Maps
-

@@ -1,2 +1,0 @@
-# Padding and Stride
-

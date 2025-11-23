@@ -187,7 +187,7 @@ parts:
             title: Advanced Sequence Models
 
       - file: chapters/chapter12/intro
-        title: Data Generation
+        title: Generative Models
         sections:
           - file: chapters/chapter12/synthetic_vs_real
             title: Synthetic vs. Real-World Data
@@ -197,6 +197,8 @@ parts:
             title: Gaussian Mixture Models (GMMs)
           - file: chapters/chapter12/vae
             title: Variational Autoencoders (VAEs)
+          - file: chapters/chapter12/dm
+            title: Diffusion Models
           - file: chapters/chapter12/gan
             title: Generative Adversarial Networks (GANs)
           - file: chapters/chapter12/sampling_methods
